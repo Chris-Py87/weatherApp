@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="WeatherAppPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.eap.pli24.weatherapp.db.City</class>
+    <class>com.eap.pli24.weatherapp.db.CityForecast</class>
+    <class>com.eap.pli24.db.CityForecast</class>
+    <class>com.eap.pli24.db.City</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:weatherDB;create=true"/>
+      <property name="javax.persistence.jdbc.user" value="weatherDB"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="weatherDB"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+      <!-- Add EclipseLink property for metamodel generation -->
+      <property name="eclipselink.canonicalmodel.package" value="com.eap.pli24.weatherapp.db"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Mar 09 19:00:41 EET 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018e-2428-d9f7-00000f696830 
+on database directory D:\2. Σχολή\HOU\3. Γ Έτος 2023-2024\ΠΛΗ24\### ΕΡΓΑΣΙΕΣ 2023-24 ###\3ηΓΕ\PLH24_3GE\13. ΜΑΡΤΙΟΣ\9-03-2024\WeatherApp\weatherDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@15db9742 
+Loaded from file:/D:/2.%20%ce%a3%cf%87%ce%bf%ce%bb%ce%ae/HOU/3.%20%ce%93%20%ce%88%cf%84%ce%bf%cf%82%202023-2024/%ce%a0%ce%9b%ce%9724/%23%23%23%20%ce%95%ce%a1%ce%93%ce%91%ce%a3%ce%99%ce%95%ce%a3%202023-24%20%23%23%23/3%ce%b7%ce%93%ce%95/PLH24_3GE/13.%20%ce%9c%ce%91%ce%a1%ce%a4%ce%99%ce%9f%ce%a3/9-03-2024/WeatherApp/3GE/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.10+11-LTS-240
+user.dir=D:\2. Σχολή\HOU\3. Γ Έτος 2023-2024\ΠΛΗ24\### ΕΡΓΑΣΙΕΣ 2023-24 ###\3ηΓΕ\PLH24_3GE\13. ΜΑΡΤΙΟΣ\9-03-2024\WeatherApp
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
